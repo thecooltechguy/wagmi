@@ -2,6 +2,7 @@ export {
   getProvider,
   type GetProviderArgs,
   type GetProviderResult,
+  type GetProviderNetworkArgs,
 } from './getProvider'
 
 export {

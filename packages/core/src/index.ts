@@ -56,6 +56,7 @@ export type {
   GetNetworkResult,
   GetProviderArgs,
   GetProviderResult,
+  GetProviderNetworkArgs,
   GetWebSocketProviderArgs,
   GetWebSocketProviderResult,
   ReadContractArgs,

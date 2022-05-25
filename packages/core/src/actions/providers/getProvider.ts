@@ -1,3 +1,5 @@
+import { providers } from 'ethers'
+
 import { getClient } from '../../client'
 import { Provider } from '../../types'
 
@@ -7,6 +9,11 @@ export type GetProviderArgs = {
 }
 
 export type GetProviderResult<TProvider extends Provider = Provider> = TProvider
+
+export type GetProviderNetworkArgs = {
+  /** The provider's getNetwork() function */
+  providerNetworkFn: () => Promise<providers.Network>
+}
 
 export function getProvider<TProvider extends Provider = Provider>({
   chainId,

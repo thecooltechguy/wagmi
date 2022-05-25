@@ -81,6 +81,7 @@ export {
   watchWebSocketProvider,
   type GetProviderArgs,
   type GetProviderResult,
+  type GetProviderNetworkArgs,
   type GetWebSocketProviderArgs,
   type GetWebSocketProviderResult,
   type WatchProviderCallback,
